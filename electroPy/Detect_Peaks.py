@@ -153,7 +153,7 @@ class Detect_Peaks() :
                 x = -x
                 if mph is not None:
                     mph = -mph
-            Detect_Peak._plot(x, mph, mpd, threshold, edge, valley, ax, ind)
+            Detect_Peaks._plot(x, mph, mpd, threshold, edge, valley, ax, ind)
     
         return ind
     
